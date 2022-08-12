@@ -45,35 +45,7 @@ function search()
 search "rv"
 
 
-#
-#index=0
-#while read line; do
-#    array[$index]="$line"
-#    index=$(($index+1))
-#done < filename
-#
-#for ((a=0; a < ${#array[*]}; a++))
-#do
-#    echo "$a: ${array[$a]}"
-#done
 
-#function search()
-#{
-#  local string=$1
-#  for i in $filename; do
-#  grep -i "$string*" $filename; sort -d
-#
-#  done
-#local string=$1
-#  local line_num=1
-#  while IFS= read -r line; do
-#    grep -i "$string*" ; sort -d
-#    line_num=$((line_num+1))
-#    done < "$filename"
-#    echo $@
-#
-#
-#}
 
 
 
